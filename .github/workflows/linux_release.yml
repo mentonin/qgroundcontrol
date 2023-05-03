@@ -39,7 +39,6 @@ jobs:
       - name: Install Qt
         uses: jurplel/install-qt-action@v3
         with:
-          version:      ${{ env.QT_VERSION }}
           host:         linux
           target:       desktop
           dir:          ${{ runner.temp }}
